@@ -14,9 +14,7 @@ function [ A_out ] = Set_to_upper_TriangulaMatrix_unb( A )
 
     %------------------------------------------------------------%
 
-    %                       update line 1                        %
-    %                             :                              %
-    %                       update line n                        %
+    a21 = laff_zerov(a21);
 
     %------------------------------------------------------------%
 

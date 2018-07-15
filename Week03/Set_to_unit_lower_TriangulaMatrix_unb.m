@@ -14,9 +14,8 @@ function [ A_out ] = Set_to_unit_lower_TriangulaMatrix_unb( A )
 
     %------------------------------------------------------------%
 
-    %                       update line 1                        %
-    %                             :                              %
-    %                       update line n                        %
+    a01 = laff_zerov(a01);
+    alpha11= laff_onev(alpha11);
 
     %------------------------------------------------------------%
 

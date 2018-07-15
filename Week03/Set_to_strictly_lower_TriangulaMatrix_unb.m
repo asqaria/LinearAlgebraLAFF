@@ -14,8 +14,8 @@ function [ A_out ] = Set_to_strictly_lower_TriangulaMatrix_unb( A )
 
     %------------------------------------------------------------%
 
-    a21 = laff_zerov(a21);
-    alpha11= laff_zerov(alpha11);
+    a01 = laff_zerov(a01);
+    alpha11 = laff_zerov(alpha11)
 
     %------------------------------------------------------------%
 
