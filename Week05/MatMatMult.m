@@ -5,8 +5,8 @@ function [ C_out ] = MatMatMult( A, B, C )
 [ m_B, n_B ] = size( B );
 
 for j = 1:n 
-   for i = 1:m 
-      for p = 1:k 
+   for p = 1:k 
+      for i = 1:m 
          C( i,j ) = A( i, p ) * B( p, j ) + C( i, j );
       end 
    end 
